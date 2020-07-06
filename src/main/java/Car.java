@@ -26,7 +26,7 @@ public class Car {
     }
     public void ShowInfo()
     {
-        System.out.println("Make: "+Make+ "\nModel: "+Model+"\n Year: "
+        System.out.println("Make: "+Make+ "\nModel: "+Model+"\nYear: "
                 +Year+"\nColor: "+Color+"\nNumber: "+Number+"Date: "+Date);
     }
     public void setMake(String make) {

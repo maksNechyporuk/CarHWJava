@@ -14,10 +14,12 @@ public class Parking {
     }
     public void PrintInfo()
     {
-
+        System.out.println();
         for (int i=0;i<Cars.size();i++)
         {
+            System.out.print(i+1+".");
             Cars.get(i).ShowInfo();
+            System.out.println();
         }
 
     }
